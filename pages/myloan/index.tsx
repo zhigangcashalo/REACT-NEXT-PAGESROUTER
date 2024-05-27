@@ -16,6 +16,10 @@ const Index = () => {
         }
     }, [query.data])
 
+    const updateMessage = (newMessage) => {
+        setMessage(newMessage)
+    }
+
     return (
         <div>
             <h1>MyLoan Page</h1>
@@ -26,7 +30,7 @@ const Index = () => {
                 </>
             )}
 
-            <ChildSampleComponent message={message} />
+            <ChildSampleComponent message={message} updateMessage={updateMessage} />
         </div>
     )
 }
