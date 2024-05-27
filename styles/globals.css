@@ -31,3 +31,18 @@ body {
     text-wrap: balance;
   }
 }
+
+.home-link {
+  color: red;
+}
+
+.about-link {
+  color: blue;
+  font-weight: bold;
+}
+.dashboard{
+  background-color: lightblue;
+  color:red;
+  width: 100%;
+  height: 100%;
+}

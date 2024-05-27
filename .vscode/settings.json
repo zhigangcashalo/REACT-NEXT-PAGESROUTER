@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.localEchoStyle": "dim",
+    "locale": "en",
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true
+}
