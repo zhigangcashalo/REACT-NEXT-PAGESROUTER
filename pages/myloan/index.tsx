@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
+import ChildSampleComponent from '../../components/ChildSampleComponent'
 
 const Index = () => {
+
+    const [message, setMessage] = useState("Hello from parent")
 
     const router = useRouter();
     const { query } = router;
@@ -22,6 +25,8 @@ const Index = () => {
                     <p>Name: {data.name}</p>
                 </>
             )}
+
+            <ChildSampleComponent message={message} />
         </div>
     )
 }
